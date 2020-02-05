@@ -4,7 +4,7 @@
 using namespace std;
 
 const int MAXN = 1e6 + 5;
-long long buggySolution(char s[MAXN]) {
+int buggySolution(char s[MAXN]) {
     int ones[MAXN];
     int oneCount = 0;
 
