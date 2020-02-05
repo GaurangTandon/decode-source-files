@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-const int MAXN = 1e5 + 5;
+const int MAXN = 1e6 + 5;
 long long buggySolution(char s[MAXN]) {
     int ones[MAXN];
     int oneCount = 0;
@@ -27,7 +27,7 @@ long long buggySolution(char s[MAXN]) {
 
         if (diff > ma) {
             ma = diff;
-            idx = middle + 1;
+            idx = middle;
         }
     }
 
