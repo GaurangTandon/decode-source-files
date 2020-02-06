@@ -35,8 +35,6 @@ int buggySolution(char s[MAXN]) {
 }
 
 int main(void) {
-    ios_base::sync_with_stdio(false);
-
     int n;
     scanf("%d", &n);
 
