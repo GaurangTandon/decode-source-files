@@ -3,7 +3,7 @@ using namespace std;
 
 int Solution(int a[]) {
     int i, k, j, l;
-    int count1, count2, count, count3;
+    int count1 = 0, count2 = 0, count = 0, count3 = 0;
 
     for (i = 0; i < 4; i++) {
         count1 = 0, count2 = 0;
