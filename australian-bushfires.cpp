@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+* This code is guaranteed to be correct in what it attempts to do
+(i.e., no out of memory access, invalid variables, etc.)
+ The code is flawed because of its logic ONLY. And you have to find only
+ that logical hack case.
+ */
+
 struct Circle {
     long double x, y;
     long double r;
